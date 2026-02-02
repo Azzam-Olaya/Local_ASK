@@ -1,0 +1,40 @@
+
+services:
+  php:
+   build: .
+   container_name: local_ask_php
+   ports:
+     - "8080:80"
+   volumes:
+      - ./src:/var/www/html
+   depends_on:
+     - postgres 
+  postgres:
+    image: postgres:16
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: local_ask
+    ports:
+      - "5432:5432" 
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmine
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "5025:80"
+    depends_on:
+      - postgres
+ 
+volumes:
+ postgres_data:
+
+ 
