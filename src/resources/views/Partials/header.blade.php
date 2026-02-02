@@ -3,7 +3,7 @@
         <div class="flex justify-between h-16 items-center">
             <a href="{{ route('questions.index') }}" class="flex items-center gap-2 text-indigo-600 font-bold text-2xl">
                 <i class="fa-solid fa-location-dot"></i>
-                <span>GeoAsk</span>
+                <span>LocalAsk</span>
             </a>
 
             <div class="hidden md:flex items-center space-x-8">

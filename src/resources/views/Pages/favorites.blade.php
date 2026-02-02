@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', 'My Saved Favorites | GeoAsk')
+@section('title', 'My Saved Favorites | LocalASK')
 
 @section('content')
     <div class="bg-gray-50 min-h-screen">

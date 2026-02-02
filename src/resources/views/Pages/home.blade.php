@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', 'Home - GeoAsk')
+@section('title', 'Home - LocalASK')
 
 @section('content')
 
@@ -14,7 +14,7 @@
                 Got a question? <span class="text-indigo-600">Ask your neighbors.</span>
             </h1>
             <p class="mt-4 text-lg text-gray-600">
-                Find answers based on your location. From local recommendations to community help, GeoAsk connects
+                Find answers based on your location. From local recommendations to community help, LocalAsk connects
                 you with the people nearby.
             </p>
             <div class="mt-8 flex gap-4">

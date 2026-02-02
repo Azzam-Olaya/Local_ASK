@@ -1,12 +1,12 @@
 @extends('main')
 
-@section('title', 'Community Statistics | GeoAsk')
+@section('title', 'Community Statistics | LocalASK')
 
 @section('content')
     <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
 
         <div class="mb-10 text-center">
-            <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">GeoAsk Insights</h1>
+            <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">LocalAsk Insights</h1>
             <p class="mt-3 text-lg text-gray-500 italic">Static Snapshot of Community Engagement</p>
         </div>
 

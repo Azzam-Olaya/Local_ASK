@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', 'Login | GeoAsk')
+@section('title', 'Login | LocalASK')
 
 @section('content')
     <div class="flex-grow flex items-center justify-center px-4 py-12">
@@ -8,7 +8,7 @@
 
             <div class="bg-indigo-600 p-8 text-center text-white">
                 <h1 class="text-3xl font-bold tracking-tight">Welcome Back</h1>
-                <p class="text-indigo-100 mt-2">Log in to your GeoAsk account</p>
+                <p class="text-indigo-100 mt-2">Log in to your LocalAsk account</p>
             </div>
 
             <form method="POST" action="{{ route('submit_login') }}" class="p-8 space-y-6">

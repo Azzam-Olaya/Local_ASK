@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', 'Browse All Questions | GeoAsk')
+@section('title', 'Browse All Questions | LocalASK')
 
 @section('content')
     <div class="bg-gray-50 min-h-screen">

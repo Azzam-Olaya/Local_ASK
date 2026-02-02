@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', $question->title . ' | GeoAsk')
+@section('title', $question->title . ' | LocalASK')
 
 @section('content')
     <div class="bg-gray-50 min-h-screen py-10">

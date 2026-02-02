@@ -1,13 +1,13 @@
 @extends('main')
 
-@section('title', 'Create Account | GeoAsk')
+@section('title', 'Create Account | LocalASK')
 
 @section('content')
     <div class="flex-grow flex items-center justify-center px-4 py-12">
         <div class="bg-white w-full max-w-md rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
 
             <div class="bg-indigo-600 p-8 text-center text-white">
-                <h1 class="text-3xl font-bold tracking-tight">Join GeoAsk</h1>
+                <h1 class="text-3xl font-bold tracking-tight">Join LocalAsk</h1>
                 <p class="text-indigo-100 mt-2">Connect with your local community</p>
             </div>
 
